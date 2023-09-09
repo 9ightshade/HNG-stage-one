@@ -10,19 +10,18 @@ const timeFunction = () => {
 };
 
 // Function to update the current day of the week
-const dayFunction=()=>{
-  const dayOfWeek = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-];
-day.innerHTML = dayOfWeek[timeVar.getDay()];
-}
-
+const dayFunction = () => {
+    const dayOfWeek = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+    ];
+    day.innerHTML = dayOfWeek[timeVar.getDay()];
+};
 
 /*
 Update time immediately and then every 1 second (1000 milliseconds)
