@@ -28,6 +28,7 @@ body {
 [data-testId="slackUserName"] {
     color: var(--Dark-cyan);
     font-weight: 700;
+    font-size: 45px;
 }
 
 span {

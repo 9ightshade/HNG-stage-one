@@ -1,5 +1,5 @@
-const time = document.querySelector('[data-testId="currentUTCTime"]');
-const day = document.querySelector('[data-testId="currentDayOfTheWeek"]');
+const time = document.querySelector('[data-testid="currentUTCTime"]');
+
 let timeVar = new Date();
 
 // Function to update the current UTC time continuously
@@ -20,7 +20,8 @@ const dayFunction = () => {
         "Friday",
         "Saturday",
     ];
-    day.innerHTML = dayOfWeek[timeVar.getDay()];
+    document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML =
+        dayOfWeek[timeVar.getDay()];
 };
 
 /*
